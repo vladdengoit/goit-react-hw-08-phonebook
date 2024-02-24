@@ -48,20 +48,6 @@ const checkContact = contacts.items?.find(el => {
 
 )
 
-// export const addContactInReduser = body => {
-//   const funcOper = async dispatch => {
-//     try {
-//       dispatch(fetchaddContactLoading());
-
-//       const data = await requestAddContacts(body);
-//       dispatch(fetchaddContactSucsess(data));
-//     } catch (error) {
-//       dispatch(fetchaddContactError(error.message));
-//     }
-//   };
-//   return funcOper;
-// };
-
 export const deleteContactInReduser = createAsyncThunk(
   "contacts/fetchDeleteContact",
   async(id , {rejectWithValue}) => {
