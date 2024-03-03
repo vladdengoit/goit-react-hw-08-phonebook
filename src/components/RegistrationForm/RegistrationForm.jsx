@@ -1,4 +1,4 @@
-import { useState, useEffect, useId } from 'react';
+import { useState, useId } from 'react';
 import styles from './registrationform.module.css';
 
 const INITIAL_STATE = {
